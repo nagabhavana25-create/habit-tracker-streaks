@@ -97,4 +97,65 @@ habit-tracker-with-streaks/
     ├── index.css
     ├── main.tsx
     └── types.ts
-5. Open your browser and navigate to the displayed local URL (usually `http://localhost:3000` or `http://localhost:5173`).
+## Project Modules
+
+### Dashboard
+
+Displays the current date, total number of habits, completed habits, and overall progress.
+
+### Add Habit
+
+Allows users to create new habits and select from available habit presets.
+
+### Daily Check-In
+
+Allows users to mark a habit as completed for the current day.
+
+### Streaks
+
+Displays the current streak and longest streak for each habit.
+
+### Weekly Progress
+
+Displays the number of completed days during the current Monday-to-Sunday week using progress bars.
+
+### Weekly Matrix
+
+Provides a visual view of habit completion for each day of the week.
+
+### Edit Habit
+
+Allows users to edit or delete existing habits.
+
+### Local Storage
+
+Stores habit and check-in data in the browser so the data remains available after refreshing the page.
+
+## Example Habits
+
+The application includes sample habits such as:
+
+- Drink Water
+- Exercise
+- Read Book
+- Study
+- Sleep Early
+
+Users can also create their own habits.
+
+## Project Purpose
+
+This project demonstrates how a web application can be used to track daily habits and calculate useful progress information such as streaks and weekly completion.
+
+It provides an interactive dashboard that makes habit progress easy to understand.
+
+## Future Scope
+
+- User login and authentication
+- Cloud database integration
+- Notifications and reminders
+- Monthly and yearly progress reports
+- Habit achievement badges
+- Synchronized user accounts
+- Advanced habit statistics
+- Mobile application support
