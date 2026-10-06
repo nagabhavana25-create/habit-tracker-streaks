@@ -1,33 +1,100 @@
 # Habit Tracker with Streaks
 
-A clean, modern, student-friendly web application to track daily habits, maintain consecutive-day streaks, and monitor weekly progress (Monday to Sunday).
+A web-based **Habit Tracker with Streaks** that helps users track their daily habits, maintain streaks, and monitor weekly progress.
 
-## Features
-- **Daily Check-Ins**: One-click check-in for today's habits with celebratory feedback.
-- **Streak Calculation**: Real consecutive-day streak calculation and longest streak record.
-- **Weekly Progress**: Monday-to-Sunday progress tracking with ratio indicators (e.g. 5/7) and progress bars.
-- **Weekly Matrix View**: Complete comparative matrix of all habits across the week.
-- **Dark & Light Mode**: Built-in theme switcher with high-contrast UI.
-- **Local Storage Persistence**: Saves habits and check-in history automatically in the browser.
+## Live Demo
 
-## Tech Stack
-- React 19
+[Open Habit Tracker with Streaks](https://habit-tracker-with-streaks.ai.studio)
+
+## Problem Statement
+
+People often start daily habits but find it difficult to maintain consistency and track their progress.
+
+This project provides a simple habit tracking system where users can record daily check-ins, calculate their current and longest streaks, and view their weekly progress.
+
+## Key Features
+
+- Add new habits
+- Daily habit check-ins
+- Current streak calculation
+- Longest streak calculation
+- Weekly progress bars
+- Monday to Sunday weekly tracking
+- Habit completion status
+- Dashboard with total habits and completed habits
+- Weekly progress visualization
+- Weekly habit matrix
+- Edit and delete habits
+- Sample habits for demonstration
+- Light and dark mode
+- Local storage for saving habit data
+- Responsive user interface
+
+## How It Works
+
+1. The user adds a habit.
+2. The habit appears on the dashboard.
+3. The user completes the habit using the daily check-in button.
+4. The application stores the check-in date.
+5. The system calculates the current streak from consecutive completed days.
+6. The longest streak is calculated from the user's previous check-ins.
+7. Weekly progress is calculated from Monday to Sunday.
+8. The dashboard displays the habit progress and streak information.
+
+## Streak Calculation
+
+The application calculates streaks using the actual habit check-in dates.
+
+- **Current Streak:** Number of consecutive days the habit has been completed.
+- **Longest Streak:** Highest number of consecutive completed days achieved.
+- **Weekly Progress:** Number of completed days out of 7 days.
+
+For example, if a habit is completed on 5 days in a week, the weekly progress is displayed as **5/7**.
+
+## Weekly Progress
+
+The application provides a weekly progress bar and a Monday-to-Sunday weekly matrix.
+
+This allows users to easily see which days they completed each habit.
+
+## Technology Used
+
+- React
 - TypeScript
 - Vite
-- Tailwind CSS
+- HTML
+- CSS
+- Local Storage
 - Lucide Icons
-- LocalStorage
+- GitHub
+- Google AI Studio
 
-## How to Run Locally
+## Project Structure
 
-1. **Extract the ZIP file** to any folder on your computer.
-2. Open your terminal / command prompt in that folder.
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the local development server:
-   ```bash
-   npm run dev
-   ```
+```text
+habit-tracker-with-streaks/
+├── index.html
+├── metadata.json
+├── package.json
+├── README.md
+├── tsconfig.json
+├── vite.config.ts
+└── src/
+    ├── components/
+    │   ├── AddHabitModal.tsx
+    │   ├── DashboardStats.tsx
+    │   ├── EditHabitModal.tsx
+    │   ├── HabitCard.tsx
+    │   ├── HabitIcon.tsx
+    │   ├── Navbar.tsx
+    │   └── WeeklyMatrix.tsx
+    ├── data/
+    │   └── defaultHabits.ts
+    ├── utils/
+    │   ├── dateUtils.ts
+    │   └── themeUtils.ts
+    ├── App.tsx
+    ├── index.css
+    ├── main.tsx
+    └── types.ts
 5. Open your browser and navigate to the displayed local URL (usually `http://localhost:3000` or `http://localhost:5173`).
