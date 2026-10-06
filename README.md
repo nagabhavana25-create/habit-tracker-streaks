@@ -97,6 +97,7 @@ habit-tracker-with-streaks/
     ├── index.css
     ├── main.tsx
     └── types.ts
+
 ## Project Modules
 
 ### Dashboard
