@@ -1,0 +1,6 @@
+{
+  "name": "Habit Tracker with Streaks",
+  "description": "A clean, student-friendly habit tracking web application with streak calculation, daily check-ins, and weekly progress bars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
