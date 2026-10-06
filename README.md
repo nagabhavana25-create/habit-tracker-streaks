@@ -4,7 +4,7 @@ A web-based **Habit Tracker with Streaks** that helps users track their daily ha
 
 ## Live Demo
 
-[Open Habit Tracker with Streaks](https://habit-tracker-with-streaks.ai.studio)
+[Open Habit Tracker with Streaks](https://habit-tracker-with-streaks.ai.studio/)
 
 ## Problem Statement
 
@@ -14,21 +14,21 @@ This project provides a simple habit tracking system where users can record dail
 
 ## Key Features
 
-- Add new habits
-- Daily habit check-ins
-- Current streak calculation
-- Longest streak calculation
-- Weekly progress bars
-- Monday to Sunday weekly tracking
-- Habit completion status
-- Dashboard with total habits and completed habits
-- Weekly progress visualization
-- Weekly habit matrix
-- Edit and delete habits
-- Sample habits for demonstration
-- Light and dark mode
-- Local storage for saving habit data
-- Responsive user interface
+* Add new habits
+* Daily habit check-ins
+* Current streak calculation
+* Longest streak calculation
+* Weekly progress bars
+* Monday to Sunday weekly tracking
+* Habit completion status
+* Dashboard with total habits and completed habits
+* Weekly progress visualization
+* Weekly habit matrix
+* Edit and delete habits
+* Sample habits for demonstration
+* Light and dark mode
+* Local storage for saving habit data
+* Responsive user interface
 
 ## How It Works
 
@@ -45,9 +45,9 @@ This project provides a simple habit tracking system where users can record dail
 
 The application calculates streaks using the actual habit check-in dates.
 
-- **Current Streak:** Number of consecutive days the habit has been completed.
-- **Longest Streak:** Highest number of consecutive completed days achieved.
-- **Weekly Progress:** Number of completed days out of 7 days.
+* **Current Streak:** Number of consecutive days the habit has been completed.
+* **Longest Streak:** Highest number of consecutive completed days achieved.
+* **Weekly Progress:** Number of completed days out of 7 days.
 
 For example, if a habit is completed on 5 days in a week, the weekly progress is displayed as **5/7**.
 
@@ -59,15 +59,15 @@ This allows users to easily see which days they completed each habit.
 
 ## Technology Used
 
-- React
-- TypeScript
-- Vite
-- HTML
-- CSS
-- Local Storage
-- Lucide Icons
-- GitHub
-- Google AI Studio
+* React
+* TypeScript
+* Vite
+* HTML
+* CSS
+* Local Storage
+* Lucide Icons
+* GitHub
+* Google AI Studio
 
 ## Project Structure
 
@@ -97,6 +97,7 @@ habit-tracker-with-streaks/
     ├── index.css
     ├── main.tsx
     └── types.ts
+```
 
 ## Project Modules
 
@@ -136,11 +137,11 @@ Stores habit and check-in data in the browser so the data remains available afte
 
 The application includes sample habits such as:
 
-- Drink Water
-- Exercise
-- Read Book
-- Study
-- Sleep Early
+* Drink Water
+* Exercise
+* Read Book
+* Study
+* Sleep Early
 
 Users can also create their own habits.
 
@@ -152,11 +153,13 @@ It provides an interactive dashboard that makes habit progress easy to understan
 
 ## Future Scope
 
-- User login and authentication
-- Cloud database integration
-- Notifications and reminders
-- Monthly and yearly progress reports
-- Habit achievement badges
-- Synchronized user accounts
-- Advanced habit statistics
+* User login and authentication
+* Cloud database integration
+* Notifications and reminders
+* Monthly and yearly progress reports
+* Habit achievement badges
+* Synchronized user accounts
+* Advanced habit statistics
+* Mobile application support
+
 - Mobile application support
