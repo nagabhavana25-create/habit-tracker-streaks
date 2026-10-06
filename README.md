@@ -161,5 +161,3 @@ It provides an interactive dashboard that makes habit progress easy to understan
 * Synchronized user accounts
 * Advanced habit statistics
 * Mobile application support
-
-- Mobile application support
